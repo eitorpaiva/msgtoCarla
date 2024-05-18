@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 body {
   background: #000;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #eee;
   text-align: center;
   font-family: "Lora", serif;
@@ -28,6 +31,8 @@ button {
   height: 120px;
   font-size: 30px;
   transition: 400ms background, color;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 button:hover {
   cursor: pointer;
